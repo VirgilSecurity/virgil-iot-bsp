@@ -1,0 +1,91 @@
+
+#ifndef iotelic_keystorage_slots_H
+#define iotelic_keystorage_slots_H
+
+#include <stdint.h>
+#include "global.h"
+
+#define KEY_SLOT_OTP_MAX_SIZE 509 // Max size of OTP slot
+#define KEY_SLOT_MTP_MAX_SIZE 509 // Max size of MTP slot
+#define KEY_SLOT_TMP_MAX_SIZE 509 // Max size of TMP slot
+
+typedef enum {
+    KEY_SLOT_OTP_0,
+    KEY_SLOT_OTP_1,
+    KEY_SLOT_OTP_2,
+    KEY_SLOT_OTP_3,
+    KEY_SLOT_OTP_4,
+    KEY_SLOT_OTP_5,
+    KEY_SLOT_OTP_6,
+    KEY_SLOT_OTP_7,
+    KEY_SLOT_OTP_8,
+    KEY_SLOT_OTP_9,
+    KEY_SLOT_OTP_10,
+    KEY_SLOT_OTP_11,
+    KEY_SLOT_OTP_12,
+    KEY_SLOT_OTP_13,
+    KEY_SLOT_OTP_14,
+    KEY_SLOT_OTP_15,
+    KEY_SLOT_OTP_16,
+    KEY_SLOT_OTP_17,
+    KEY_SLOT_OTP_18,
+    KEY_SLOT_OTP_19,
+    KEY_SLOT_OTP_20,
+    KEY_SLOT_OTP_21,
+    KEY_SLOT_OTP_22,
+    KEY_SLOT_OTP_23,
+    KEY_SLOT_OTP_24,
+    KEY_SLOT_OTP_25,
+    KEY_SLOT_OTP_26,
+    KEY_SLOT_OTP_27,
+    KEY_SLOT_OTP_28,
+    KEY_SLOT_OTP_29,
+    KEY_SLOT_OTP_30,
+    KEY_SLOT_OTP_31,
+    KEY_SLOT_OTP_MAX,
+    KEY_SLOT_MTP_0,
+    KEY_SLOT_MTP_1,
+    KEY_SLOT_MTP_2,
+    KEY_SLOT_MTP_3,
+    KEY_SLOT_MTP_4,
+    KEY_SLOT_MTP_5,
+    KEY_SLOT_MTP_6,
+    KEY_SLOT_MTP_7,
+    KEY_SLOT_MTP_8,
+    KEY_SLOT_MTP_9,
+    KEY_SLOT_MTP_10,
+    KEY_SLOT_MTP_11,
+    KEY_SLOT_MTP_12,
+    KEY_SLOT_MTP_13,
+    KEY_SLOT_MTP_14,
+    KEY_SLOT_MTP_15,
+    KEY_SLOT_MTP_16,
+    KEY_SLOT_MTP_17,
+    KEY_SLOT_MTP_18,
+    KEY_SLOT_MTP_19,
+    KEY_SLOT_MTP_20,
+    KEY_SLOT_MTP_21,
+    KEY_SLOT_MTP_22,
+    KEY_SLOT_MTP_23,
+    KEY_SLOT_MTP_24,
+    KEY_SLOT_MTP_25,
+    KEY_SLOT_MTP_26,
+    KEY_SLOT_MTP_27,
+    KEY_SLOT_MTP_28,
+    KEY_SLOT_MTP_29,
+    KEY_SLOT_MTP_30,
+    KEY_SLOT_MTP_31,
+    KEY_SLOT_MTP_MAX,
+    KEY_SLOT_TMP_0,
+    KEY_SLOT_TMP_1,
+    KEY_SLOT_TMP_2,
+    KEY_SLOT_TMP_3,
+    KEY_SLOT_TMP_4,
+    KEY_SLOT_TMP_5,
+    KEY_SLOT_TMP_6,
+    KEY_SLOT_TMP_7,
+    KEY_SLOT_TMP_MAX
+} KEYSTORAGE_SLOT;
+
+
+#endif // iotelic_keystorage_slots_H
